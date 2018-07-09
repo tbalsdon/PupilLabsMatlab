@@ -3,10 +3,10 @@
 % you will need to edit these:
 
 tcpAddress = 'tcp://127.0.0.1:50020';
-pyPupilPath = '/Users/tarrynbalsdon/Documents/Pupil/tbPupil';
-markerFile = '/Users/tarrynbalsdon/Documents/MATLAB/marker.png';
-recFolder = '/Users/tarrynbalsdon/Documents/Pupil/tbPupil/000/';
-outStem = '/Users/tarrynbalsdon/Documents/Pupil/tbPupil/000/test';
+pyPupilPath = '/Users/.../Documents/.../Pupil';
+markerFile = '/Users/.../Documents/MATLAB/marker.png';
+recFolder = '/Users/.../Documents/Pupil/000/';
+outStem = '/Users/.../Documents/Pupil/000/test';
             
 try
     % set up window
