@@ -16,3 +16,7 @@ You will also need a png of the calibration marker (from the pupil labs website)
 The basic functions allow one to set up a connection with pupil labs, calibrate, record/stop recording, query pupil labs timestamps, change pupil labs timestamps, and send annotations. There is also a function to get the saved data out of the python object into a sensible format for reading in matlab (or csv).
 
 Matlab will freeze if the code is run without the device plugged in, pupil capture open, and the correct tcp address. However, it will close any open windows and type a warning before doing so. (any suggestions for getting around this are welcome).
+
+pupilChat.py is the python file for talking to pupil, you shouldn't need to open this.
+pupilChat.m contains the matlab functions to call.
+testPupil.m demonstrates how to call the different functions within a simple matlab experiment script
